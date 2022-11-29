@@ -301,7 +301,7 @@ class Neuronas:
         self.sesion.close()
 
     @staticmethod
-    def Ejecutar():
+    def ejecutar():
         n=int(input("¿Cuantas neuronas quieres usar? (12,24,26,31)"))
         neu=Neuronas(N=n)
         neu.datos()
@@ -316,4 +316,4 @@ class Neuronas:
         neu.PrecisionDatos()
 
 if __name__=="__main__":
-    Neuronas.Ejecutar()
+    Neuronas.ejecutar()
